@@ -1,0 +1,64 @@
+
+
+body{
+    height: 100vh;
+}
+
+.welcomesection{
+    width: 100%;
+    
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.houseimage{
+    margin: 0 auto;
+    padding: 30px;
+    max-height: 600px;
+}
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px;
+    width: 100%;
+
+    align-items: center;
+}
+
+
+
+.navbardivision{
+    float: right;
+}
+
+
+.logo-nav{
+    width: 60px;
+    height: auto;
+
+}
+
+footer{
+    
+    left: 0;
+    bottom: 0;
+    width: 100%;
+}
+
+.hvr-grow {
+    display: inline-block;
+    vertical-align: middle;
+    transform: translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    backface-visibility: hidden;
+    -moz-osx-font-smoothing: grayscale;
+    transition-duration: 0.3s;
+    transition-property: transform;
+}
+
+.hvr-grow:hover,
+.hvr-grow:active {
+    transform: scale(1.1);
+}
